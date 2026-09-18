@@ -1,0 +1,41 @@
+{
+  "overall_disruption_rate": 0.6120240480961924,
+  "avg_lead_time": 19.376587174348696,
+  "avg_carrier_reliability": 0.7544547094188376,
+  "disruption_rate_by_mode": {
+    "Air": 0.6163,
+    "Rail": 0.612,
+    "Sea": 0.6102,
+    "Road": 0.6094
+  },
+  "top_risk_routes": {
+    "Rotterdam -> Marseille": 0.75,
+    "Los Angeles -> Singapore": 0.7206,
+    "Hamburg -> Rotterdam": 0.7083,
+    "Rotterdam -> Busan": 0.686,
+    "Singapore -> Antwerp": 0.6806,
+    "Busan -> Shanghai": 0.6778,
+    "Shanghai -> Singapore": 0.6774,
+    "Busan -> Marseille": 0.6769,
+    "Hamburg -> Los Angeles": 0.6706,
+    "Shanghai -> Marseille": 0.6623
+  },
+  "top_origins_by_avg_delay": {
+    "Shanghai": 21.38,
+    "Rotterdam": 21.01,
+    "Hamburg": 20.07,
+    "Busan": 19.69,
+    "Antwerp": 18.99,
+    "Singapore": 18.98,
+    "Los Angeles": 17.62,
+    "Dubai": 17.02
+  },
+  "disruption_by_weather": {
+    "Hurricane": 1.0,
+    "Storm": 0.7948,
+    "Fog": 0.4797,
+    "Rain": 0.4197,
+    "Clear": 0.3677
+  },
+  "geo_risk_leadtime_corr": 0.08794204536874724
+}

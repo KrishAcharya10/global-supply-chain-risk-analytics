@@ -1,0 +1,175 @@
+{
+  "classification": {
+    "accuracy": 0.724,
+    "precision": 0.7687400318979266,
+    "recall": 0.7862969004893964,
+    "f1": 0.7774193548387096,
+    "roc_auc": 0.8157428835185958,
+    "confusion_matrix": [
+      [
+        242,
+        145
+      ],
+      [
+        131,
+        482
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.6487935656836461,
+        "recall": 0.6253229974160207,
+        "f1-score": 0.636842105263158,
+        "support": 387.0
+      },
+      "1": {
+        "precision": 0.7687400318979266,
+        "recall": 0.7862969004893964,
+        "f1-score": 0.7774193548387096,
+        "support": 613.0
+      },
+      "accuracy": 0.724,
+      "macro avg": {
+        "precision": 0.7087667987907864,
+        "recall": 0.7058099489527085,
+        "f1-score": 0.7071307300509337,
+        "support": 1000.0
+      },
+      "weighted avg": {
+        "precision": 0.722320749473,
+        "recall": 0.724,
+        "f1-score": 0.7230159592529711,
+        "support": 1000.0
+      }
+    },
+    "top_features": [
+      {
+        "feature": "Weather_Severity",
+        "importance": 0.07118368111343326
+      },
+      {
+        "feature": "Risk_Index",
+        "importance": 0.05969418539621282
+      },
+      {
+        "feature": "Delay_Pct_Recalc",
+        "importance": 0.042897496101959
+      },
+      {
+        "feature": "Weather_Condition_Hurricane",
+        "importance": 0.04044482999959844
+      },
+      {
+        "feature": "Priority_Score",
+        "importance": 0.03235848025121999
+      },
+      {
+        "feature": "Delay_Days_Recalc",
+        "importance": 0.03199846880822088
+      },
+      {
+        "feature": "Geopolitical_Risk_Score",
+        "importance": 0.0303103964369222
+      },
+      {
+        "feature": "Distance_km",
+        "importance": 0.02662615484220316
+      },
+      {
+        "feature": "Cost_Per_Tonne",
+        "importance": 0.02492513936931336
+      },
+      {
+        "feature": "Fuel_Price_Index",
+        "importance": 0.023729520524956218
+      },
+      {
+        "feature": "Carrier_Reliability_Score",
+        "importance": 0.02326908391376187
+      },
+      {
+        "feature": "Carbon_Emission_kg",
+        "importance": 0.022745619982448596
+      },
+      {
+        "feature": "Estimated_Cost_USD",
+        "importance": 0.02248196607740176
+      },
+      {
+        "feature": "Cost_Per_KM",
+        "importance": 0.022443615980547213
+      },
+      {
+        "feature": "Weight_MT",
+        "importance": 0.022412575469927188
+      }
+    ]
+  },
+  "regression": {
+    "rmse": 0.6818483770692724,
+    "mae": 0.3959763999999987,
+    "r2": 0.9994850296915813,
+    "top_features": [
+      {
+        "feature": "Delay_Days_Recalc",
+        "importance": 0.9594890911980946
+      },
+      {
+        "feature": "Emission_Per_Tonne_KM",
+        "importance": 0.011135536445116305
+      },
+      {
+        "feature": "Delay_Pct_Recalc",
+        "importance": 0.01090631578907359
+      },
+      {
+        "feature": "Transport_Mode_Air",
+        "importance": 0.006368416679817863
+      },
+      {
+        "feature": "Transport_Mode_Sea",
+        "importance": 0.004827468138497252
+      },
+      {
+        "feature": "Distance_km",
+        "importance": 0.0043096513233904735
+      },
+      {
+        "feature": "Weather_Severity",
+        "importance": 0.0008318094293020647
+      },
+      {
+        "feature": "Cost_Per_Tonne",
+        "importance": 0.0007245301497396255
+      },
+      {
+        "feature": "Weather_Condition_Fog",
+        "importance": 0.00016577145422637333
+      },
+      {
+        "feature": "Risk_Index",
+        "importance": 0.00014861510175429192
+      },
+      {
+        "feature": "Weather_Condition_Storm",
+        "importance": 9.911379459985836e-05
+      },
+      {
+        "feature": "Geopolitical_Risk_Score",
+        "importance": 9.249514848197009e-05
+      },
+      {
+        "feature": "Transport_Mode_Road",
+        "importance": 7.378331976351906e-05
+      },
+      {
+        "feature": "Transport_Mode_Rail",
+        "importance": 6.896345695368852e-05
+      },
+      {
+        "feature": "Weather_Condition_Hurricane",
+        "importance": 6.01741581536449e-05
+      }
+    ]
+  }
+}
