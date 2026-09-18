@@ -1,4 +1,4 @@
-# 🚀 ANTIGRAVITY | Global Supply Chain Risk Analytics Platform
+#  Global Supply Chain Risk Analytics Platform
 
 An enterprise-grade, judge-friendly Supply Chain Risk Analytics SaaS platform built on a 5,000-shipment global logistics dataset. This repository combines a **refactored, leak-free Python data engineering pipeline** with a **modern Cyber-Dark React SaaS Frontend**.
 
